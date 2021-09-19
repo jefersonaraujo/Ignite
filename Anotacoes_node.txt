@@ -1,0 +1,25 @@
+---------------Conceitos--------------------------
+arquitetura : event loop -> call stack
+single - Thread
+non-blocking I/O
+módulos próprios -> http;fs ...
+gerenciador de pacotes : npm e yarn
+frameworks : express; egg.js; nest.js ; adonis.js
+Regras Rest:
+  -> 1 - Client-Server
+  -> 2 - stateless (não armazena estado(requisições são as mesmas))
+  -> 3 - Cache
+  -> 4 - Interface Uniforme
+        # Identificação dos recursos
+          * http://endereçoservidor.com.br/produtos
+          * http://endereçoservidor.com.br/clients
+        # Representação dos recursos
+        # Mensagens auto-descritivas
+        # HATEAOEAS(praticamente conseguir entregar links no retorno)
+  -> 5 - Camadas
+  -> 6 - Código sob demanda
+
+Paramentros :
+  Route params : ideintificar um recurso editar/deletar/buscar
+  Query params : paginação / Filtro
+  Body params : os objetos inserção/alteração (JSON)
